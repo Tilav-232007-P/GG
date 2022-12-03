@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto"
+}
+body{
+    background-color: black;
+}
+.container2{
+    max-width: 2600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.not_active{
+    display: none;
+    transition: 0.5s;
+}
+@mixin ggg {
+    height: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+}
+.head{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    margin: 0 auto;
+    .img{
+        width: 100px;
+        height: 100px;
+        background-image: url(../image/294700_apple_icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: invert(100%);
+    }
+    .burger_menu{
+        width: 100px;
+        height: 80px;
+        position: relative;
+        cursor: pointer;
+        .one_menu{
+            transition: 0.5s;
+            @include ggg()
+        }
+        .two_menu{
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            transition: 0.5s;
+            @include ggg()
+        }
+        .three_menu{
+            bottom: 0;
+            transition: 0.5s;
+            @include ggg()
+        }
+    }
+}
+.key{
+    transition: 0.5s;
+    top: 0%;
+    transform: translateY(215%) rotate(45deg);
+}
+.key_2{
+    transition: 0.5s;
+    bottom: 0%;
+    transform: translateY(-215%) rotate(-45deg);
+}
+.opa{
+    transition: 0.5s;
+    opacity: 0;
+}
+#hr{
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 50px;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 80%;
+    transition: 0.5s;
+}
+aside{
+    height: 100%;
+    width: 600px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: 0.5s;
+}
+.rg{
+    transition: 0.5s;
+    left: 0%;
+}
+a{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    display: block;
+}
+.white_box{
+    height: 200px;
+    width: 200px;
+    background-image: url(../image/294700_apple_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(100%);
+    margin: auto;
+}
+
+
+@mixin and {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s;
+    filter: invert(100%);
+    &:active{
+        background-size: 80%;
+    }
+}
+@mixin gg {
+    width: 624px;
+    height: 624px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .next{
+        background-image: url(../image/3994400_arrow_forward_navigation_next_right_icon.png);
+        @include and()
+    }
+    .prev{
+        background-image: url(../image/3994400_arrow_forward_navigation_next_right_icon.png);
+        transform: rotate(180deg);
+        @include and()
+    }
+    .slider{
+        width: 624px;
+        height: 624px;
+        background-color: royalblue;
+        display: flex;
+        margin: 0 50px;
+        overflow: hidden;
+        .slider_line{
+            display: flex;
+            position: relative;
+            left: 0;
+            transition: 0.5s;
+            .image{
+                background-image: url(../image/1616602216_27-p-krutoi-fon-na-telefon-30.jpg);
+                @include gg()
+            }
+            .image1{
+                background-image: url(../image/images.jpg);
+                @include gg()
+            }
+            .image2{
+                background-image: url(../image/Без\ названия.jpg);
+                @include gg()
+            }
+            .image3{
+                background-image: url(../image/Без\ названия\ \(1\).jpg);
+                @include gg()
+            }
+        }
+    }
+}

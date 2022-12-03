@@ -1,0 +1,184 @@
+@media only screen and (max-width: 806px){
+    aside{
+        left: -150%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 544px){
+    .head{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 410px){
+    .head .burger_menu{
+        width: 90px;
+        height: 70px;
+    }
+    .head .burger_menu .one_menu{
+        height: 12px;
+    }
+    .head .burger_menu .two_menu{
+        height: 12px;
+    }
+    .head .burger_menu .three_menu{
+        height: 12px;
+    }
+    .key_2{
+        transform: translateY(-250%) rotate(-45deg);
+    }
+    head .img {
+        width: 80px;
+        height: 80px;
+    }
+    .head {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 948px){
+    .container .slider{
+        width: 424px;
+        height: 424px;
+        margin: 0 20px;
+    }
+    .container .slider .slider_line .image{
+        width: 424px;
+        height: 424px;
+    }
+    .container .slider .slider_line .image1{
+        width: 424px;
+        height: 424px;
+    }
+    .container .slider .slider_line .image2{
+        width: 424px;
+        height: 424px;
+    }
+    .container .slider .slider_line .image3{
+        width: 424px;
+        height: 424px;
+    }
+}
+@media only screen and (max-width: 712px){
+    .container .slider{
+        width: 324px;
+        height: 324px;
+        margin: 0 10px;
+    }
+    .container .slider .slider_line .image{
+        width: 324px;
+        height: 324px;
+    }
+    .container .slider .slider_line .image1{
+        width: 324px;
+        height: 324px;
+    }
+    .container .slider .slider_line .image2{
+        width: 324px;
+        height: 324px;
+    }
+    .container .slider .slider_line .image3{
+        width: 324px;
+        height: 324px;
+    }
+    .container .next{
+        width: 70px;
+        height: 70px;
+    }
+    .container .prev{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 512px){
+    .container .slider{
+        width: 304px;
+        height: 304px;
+        margin: 0 10px;
+    }
+    .container .slider .slider_line .image{
+        width: 304px;
+        height: 304px;
+    }
+    .container .slider .slider_line .image1{
+        width: 304px;
+        height: 304px;
+    }
+    .container .slider .slider_line .image2{
+        width: 304px;
+        height: 304px;
+    }
+    .container .slider .slider_line .image3{
+        width: 304px;
+        height: 304px;
+    }
+    .container .next{
+        width: 60px;
+        height: 60px;
+    }
+    .container .prev{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 452px){
+    .container .slider{
+        width: 274px;
+        height: 274px;
+        margin: 0 10px;
+    }
+    .container .slider .slider_line .image{
+        width: 274px;
+        height: 274px;
+    }
+    .container .slider .slider_line .image1{
+        width: 274px;
+        height: 274px;
+    }
+    .container .slider .slider_line .image2{
+        width: 274px;
+        height: 274px;
+    }
+    .container .slider .slider_line .image3{
+        width: 274px;
+        height: 274px;
+    }
+    .container .next{
+        width: 50px;
+        height: 50px;
+    }
+    .container .prev{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .container .slider{
+        width: 204px;
+        height: 204px;
+        margin: 0 5px;
+    }
+    .container .slider .slider_line .image{
+        width: 204px;
+        height: 204px;
+    }
+    .container .slider .slider_line .image1{
+        width: 204px;
+        height: 204px;
+    }
+    .container .slider .slider_line .image2{
+        width: 204px;
+        height: 204px;
+    }
+    .container .slider .slider_line .image3{
+        width: 204px;
+        height: 204px;
+    }
+    .container .next{
+        width: 30px;
+        height: 30px;
+    }
+    .container .prev{
+        width: 30px;
+        height: 30px;
+    }
+}
